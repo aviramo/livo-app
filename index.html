@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Livo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #111;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+    }
+    .logo {
+      width: 96px;
+      height: 96px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 40px;
+      font-weight: 300;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 18px;
+      color: rgba(0,0,0,0.5);
+      text-align: center;
+      max-width: 340px;
+      line-height: 1.6;
+    }
+    .footer {
+      margin-top: 48px;
+      font-size: 14px;
+      color: rgba(0,0,0,0.35);
+    }
+    .footer a {
+      color: #1AC944;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="g" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fff" stop-opacity="0.95"/>
+        <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="60" cy="37" r="32" fill="#1AC944"/>
+    <circle cx="28" cy="75" r="18" fill="#767676"/>
+    <circle cx="39" cy="62" r="9" fill="url(#g)"/>
+    <circle cx="39" cy="62" r="2.5" fill="#fff"/>
+  </svg>
+
+  <h1>Livo</h1>
+  <p>The connection that finds you.</p>
+
+  <div class="footer">
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</body>
+</html>
